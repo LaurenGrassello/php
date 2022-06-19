@@ -33,7 +33,6 @@ function fullName($fname, $lname){
 fullName("lauren", "odalen");
 ?>
 
-
 <?php
 function addNums(int $a, int $b){
     return $a + $b;
