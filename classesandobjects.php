@@ -20,6 +20,7 @@ class Pet {
 
 $dog = new Pet();
 $cat = new Pet();
+$bird = "bird";
 
 $dog->set_name('Marley ');
 $cat->set_name('Soma ');
@@ -32,6 +33,9 @@ $cat->set_age('1 ');
 
 echo $dog->get_age();
 echo $cat->get_age();
+
+var_dump($dog instanceof Pet);
+var_dump($bird instanceof Pet);
 
 
 ?>
