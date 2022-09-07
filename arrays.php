@@ -70,6 +70,6 @@ use method to sort by alpha backwards
 ?>
 
 <?php
-$colors = array("blue", "pink", "green", "orange", "purple", "yellow");
+$colors = array("blue", "pink", "green", "orange", "brown", "yellow");
 echo rsort($colors);
 ?>
